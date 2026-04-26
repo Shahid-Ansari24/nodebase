@@ -1,7 +1,12 @@
+"use client"
+
 import { Button } from "@/components/ui/button";
+import { useEffect } from "react";
 
 const Page = () => {
-  const something = true;
+  useEffect (() => {
+    console.log("Page component mounted");
+  }, []);
 
   return (    
     <div className="min-h-screen min-w-screen flex items-center justify-center">
