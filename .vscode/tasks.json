@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Install Prisma PG Adapter",
+			"type": "shell",
+			"command": "npm install @prisma/adapter-pg"
+		},
+		{
+			"label": "Install pg package",
+			"type": "shell",
+			"command": "npm install pg"
+		}
+	]
+}
